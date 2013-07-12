@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.email            = 'tillotson.travis@gmail.com'
   s.extra_rdoc_files = ["README.md"]
   s.files            = ["lib/google_translation.rb"]
+  s.license          = 'MIT'
   
   s.add_dependency 'faraday', '~> 0.8.0'
   s.add_dependency 'faraday_middleware', '~> 0.9.0'
