@@ -8,9 +8,7 @@ Installation
 
 Installation is a piece of cake:
 
-To get started, install composer in your project:
-
-$ gem install google_translation
+  $ gem install google_translation
 
 
 Usage
