@@ -20,13 +20,12 @@ Using the Google Translation client is easy:
 
 # Translate from one language to another
 client = Translate.new('YOUR API KEY')
-client.translate(:source => 'en', :target => 'de', :q => @eng)
+client.translate(:source => 'en', :target => 'de', :q => 'Some text to translate')
 
 # Discover available languages
 client.discover()
 
 # Detect a language
 client.detect("If wishes were fishes we'd all cast nets")
-
 
 ```
